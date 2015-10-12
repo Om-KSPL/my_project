@@ -1,0 +1,8 @@
+<apex:page controller="ActionSupportClass" >
+    <apex:form >
+    <apex:outputPanel id="count">   
+         <apex:outputText value="Please click me {!counter}"></apex:outputText>
+         <apex:actionSupport action="{!incrementCounter}" event="onclick" reRender="count" />
+    </apex:outputPanel> 
+    </apex:form>    
+</apex:page>
