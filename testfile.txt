@@ -2,7 +2,7 @@
     <apex:form >
     <apex:outputPanel id="count">   
          <apex:outputText value="Please click me {!counter}"></apex:outputText>
-         <apex:actionSupport action="{!incrementCounter}" event="onclick" reRender="count" />
+         <apex:actionSupport action="{!incrementCounter1}" event="onclick" reRender="count" />
     </apex:outputPanel> 
     </apex:form>    
 </apex:page>
